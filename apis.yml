@@ -1,7 +1,14 @@
 aid: photocert
 name: Photocert
-description: Photocert is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Photocert is a London-based visual AI company (a Techstars portfolio company) that
+  authenticates photos and videos at the point of capture to prevent fraud, waste, and abuse across
+  insurance and enterprise visual-inspection workflows. Its platform detects AI-generated images and
+  deepfakes at scale, certifies media with claimed 99.99% accuracy, and automates motor, content, and
+  property (water-leak) insurance claims. Photocert markets REST APIs and SDKs plus a white-label
+  claim/onboarding platform and a camera API component for image certification, though no public
+  developer documentation, OpenAPI, or self-service portal is published — integration is arranged via
+  sales/demo. This profile was added to the API Evangelist network from the Techstars portfolio and
+  enriched with the honest public surface.
 url: https://raw.githubusercontent.com/api-evangelist/photocert/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://photocert.co.uk/wp-content/uploads/2025/10/Photocert-Heart-Home-1.gif
 tags:
 - Company
+- Visual AI
+- Image Certification
+- Fraud Detection
+- Insurance
+- Insurtech
+- Deepfake Detection
+- Media Authentication
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://photocert.co.uk/
+- type: About
+  url: https://photocert.co.uk/about-us-photocert/
+- type: Blog
+  url: https://photocert.co.uk/media/
+- type: Support
+  url: https://photocert.co.uk/media/media-contact-us/
+- type: PrivacyPolicy
+  url: https://photocert.co.uk/privacy-policy/
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/photocert
+- type: DomainSecurity
+  url: security/photocert-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
