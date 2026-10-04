@@ -46,12 +46,12 @@ tags:
 - Company
 - Visual AI
 - Image Certification
-- Fraud Detection
+- Fraud Prevention
 - Insurance
 - Insurtech
 - Deepfake Detection
 - Media Authentication
-- Computer-Vision
+- Computer Vision
 tags_raw:
 - Company
 - Visual AI
@@ -62,6 +62,7 @@ tags_raw:
 - Deepfake Detection
 - Media Authentication
 - Computer Vision
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
