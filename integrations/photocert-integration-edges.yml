@@ -1,0 +1,46 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- duck-creek/integrations/duck-creek-integration-edges.yml
+- guidewire/integrations/guidewire-integration-edges.yml
+source:
+- duck-creek/integrations/duck-creek-integration-edges.yml
+- guidewire/integrations/guidewire-integration-edges.yml
+edges:
+- partner_name: Duck Creek (own)
+  partner: duck-creek
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.duckcreek.com/partner/photocert/
+  mirror_of: duck-creek/integrations/duck-creek-integration-edges.yml
+  apps:
+  - Photocert
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Solution
+- partner_name: Guidewire (own)
+  partner: guidewire
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.guidewire.com/product/01t3n00000SxoR9AAJ/01t3n00000SxoR9AAJ
+  mirror_of: guidewire/integrations/guidewire-integration-edges.yml
+  apps:
+  - Photocert Accelerator for Photo & PDF Tampering Analysis for ClaimCenter
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Accelerator; Claims Automation;Fraud Detection & Investigation; ClaimCenter
+  badges:
+  - Ready for Guidewire
+  - 'Partner tier: Growth'
